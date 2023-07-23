@@ -6,7 +6,7 @@ from models.User import Usuarios
 from bcrypt import hashpw, gensalt, checkpw
 from flask_jwt_extended import create_access_token, decode_token
 
-apiUrl = 'https://api-mvc-test.vercel.app'
+apiUrl = 'https://api-rec-mvc.vercel.app'
 recUrl = 'https://rec-eight.vercel.app'
 
 def enviarEmail():
