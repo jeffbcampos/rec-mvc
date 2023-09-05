@@ -10,7 +10,7 @@ apiUrl = 'https://api-rec-mvc.vercel.app'
 recUrl = 'https://rec-eight.vercel.app'
 
 def enviarEmail():
-    from api.app import mail
+    from app import mail
     from flask_mail import Message
     
     try:
@@ -54,7 +54,7 @@ def confirmarEmail(token):
         
         
 def recuperarSenha():
-    from api.app import mail
+    from app import mail
     from flask_mail import Message
     
     try:
